@@ -1,7 +1,7 @@
 'use client';
 
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { FileText, Shield, AlertCircle, CheckCircle, Clock, DollarSign, Users, Tool } from 'lucide-react';
+import { FileText, Shield, AlertCircle, CheckCircle, Clock, DollarSign, Users, Wrench } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -62,7 +62,7 @@ export default function Terms() {
           <Card>
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
-                <Tool className="h-5 w-5 text-blue-600" />
+                <Wrench className="h-5 w-5 text-blue-600" />
                 Services Description
               </CardTitle>
             </CardHeader>
